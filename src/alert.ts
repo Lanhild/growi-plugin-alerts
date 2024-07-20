@@ -16,10 +16,15 @@ export const plugin: Plugin = function() {
       try {
         if (n.type === 'leafGrowiPluginDirective' && n.name === 'alert') {
           const type = Object.keys(n.attributes)[0];
-          const { text } = n.attributes;
+          const { heading, text } = n.attributes;
+          let headingContent = `<h4 class="alert-heading">${heading}</h4>`;
+          if (heading === '') {
+            headingContent = '';
+          }
           n.type = 'html';
           n.value = `<div class="alert alert-${type}">
-            ${text}
+            ${headingContent}
+              ${text}
           </div>
           `;
         }

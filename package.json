@@ -1,7 +1,7 @@
 {
-  "name": "growi-plugin-snippets",
+  "name": "growi-plugin-alerts",
   "version": "1.0.0",
-  "description": "GROWI plugin template for script",
+  "description": "GROWI plugin for Bootstrap alerts.",
   "license": "MIT",
   "keywords": [
     "growi",

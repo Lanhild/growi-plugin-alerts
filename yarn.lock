@@ -4235,9 +4235,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"growi-plugin-snippets@workspace:.":
+"growi-plugin-alerts@workspace:.":
   version: 0.0.0-use.local
-  resolution: "growi-plugin-snippets@workspace:."
+  resolution: "growi-plugin-alerts@workspace:."
   dependencies:
     "@types/react": "npm:^18.3.3"
     "@types/react-dom": "npm:^18.3.0"
